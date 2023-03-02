@@ -1,0 +1,23 @@
+.item-1 {
+background-color: aqua;
+}
+.item-2 {
+    background-color:blanchedalmond;
+    }
+    .item-3 {
+        background-color:brown;
+        }
+        .item-4 {
+            background-color:crimson;
+            }
+            .item-5 {
+                background-color:darkmagenta;
+                }
+                .item-6 {
+                    background-color:darkorange;
+                    }
+.container{
+    display:grid;
+    grid-template-columns: 200px 100px 300px;
+    grid-template-rows: 100px 200px;
+}
