@@ -1,0 +1,35 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 4fr 2fr;
+            grid-template-rows:100000px;
+
+            grid-template-areas: 
+            "1 2 3 4"
+            "5 6 7 8"
+            "9 10 11 12"
+            "13 14 15 0";
+        }
+.item-1 {
+    background-color: red;
+size: 1fr;
+font-size: 50px;
+color: white;
+    }
+    .item-2 {
+        background-color: blue;
+    size: 4fr;
+    font-size: 50px;
+    color: white;
+        }
+        .item-3 {
+            background-color: green;
+        size: 2fr;
+        font-size: 50px;
+        color: white;
+            }
+
