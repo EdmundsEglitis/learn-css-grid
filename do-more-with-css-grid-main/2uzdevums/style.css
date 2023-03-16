@@ -1,4 +1,7 @@
 .container {
+  display: grid;
+  grid-template-rows: repeat(2,150px);
+  grid-template-columns: repeat(3,200px);
   width: 1000px;
   height: 600px;
   background-color: pink;
@@ -6,10 +9,17 @@
   /* Izvieto, lūdzu, elementus ar klasi item 3 kolonnās,
   katra 200 px plata un 2 rindās, katra 150px augsta. */
 
+align-content: center;
+justify-content: center;
   gap: 20px;
 }
 
 .item {
   background-color: violet;
   font-family: sans-serif;
+  height: 150px;
+  width: 200px;
+  text-align: center;
+display:grid; 
+align-items: center;
 }
